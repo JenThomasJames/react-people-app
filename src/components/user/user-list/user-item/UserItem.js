@@ -5,7 +5,7 @@ const UserItem = (props) => {
         <div className={styles.container}>
             <div className={styles.card}>
                 <div className={styles['card-header']}>
-                    <img src={props.user.imageUrl} />
+                    <img src={props.user.imageUrl} alt={props.user.name} />
                 </div>
                 <div className={styles['card-body']}>
                     <h1>{props.user.name}</h1>
